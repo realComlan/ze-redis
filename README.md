@@ -1,19 +1,18 @@
-[![progress-banner](https://backend.codecrafters.io/progress/kafka/fa2e13c9-fb4a-40fd-8d31-457f975407a0)](https://app.codecrafters.io/users/codecrafters-bot?r=2qF)
+[![progress-banner](https://backend.codecrafters.io/progress/redis/015c2977-4d03-4d50-a257-a2d4acf135a7)](https://app.codecrafters.io/users/codecrafters-bot?r=2qF)
 
-This is a starting point for Zig solutions to the
-["Build Your Own Kafka" Challenge](https://codecrafters.io/challenges/kafka).
+This is a starting point for C++ solutions to the
+["Build Your Own Redis" Challenge](https://codecrafters.io/challenges/redis).
 
-In this challenge, you'll build a toy Kafka clone that's capable of accepting
-and responding to ApiVersions & Fetch API requests. You'll also learn about
-encoding and decoding messages using the Kafka wire protocol. You'll also learn
-about handling the network protocol, event loops, TCP sockets and more.
+In this challenge, you'll build a toy Redis clone that's capable of handling
+basic commands like `PING`, `SET` and `GET`. Along the way we'll learn about
+event loops, the Redis protocol and more.
 
 **Note**: If you're viewing this repo on GitHub, head over to
 [codecrafters.io](https://codecrafters.io) to try the challenge.
 
 # Passing the first stage
 
-The entry point for your Kafka implementation is in `src/main.zig`. Study and
+The entry point for your Redis implementation is in `src/main.cpp`. Study and
 uncomment the relevant code, and push your changes to pass the first stage:
 
 ```sh
@@ -27,8 +26,8 @@ That's all!
 
 Note: This section is for stages 2 and beyond.
 
-1. Ensure you have `zig (0.15)` installed locally
-1. Run `./your_program.sh` to run your Kafka broker, which is implemented in
-   `src/main.zig`.
+1. Ensure you have `cmake` installed locally
+1. Run `./your_program.sh` to run your Redis server, which is implemented in
+   `src/main.cpp`.
 1. Commit your changes and run `git push origin master` to submit your solution
    to CodeCrafters. Test output will be streamed to your terminal.

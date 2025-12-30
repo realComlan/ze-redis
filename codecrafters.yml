@@ -4,8 +4,8 @@
 # unless you really need them.
 debug: false
 
-# Use this to change the Zig version used to run your code
+# Use this to change the C++ version used to run your code
 # on Codecrafters.
 #
-# Available versions: zig-0.15.2
-buildpack: zig-0.15.2
+# Available versions: cpp-23
+buildpack: cpp-23
